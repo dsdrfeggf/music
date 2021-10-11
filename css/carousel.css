@@ -1,0 +1,37 @@
+.carousel-warp {
+  position: relative;
+}
+.carousel-warp > .imgList {
+  list-style: none;
+  overflow: hidden;
+  position: absolute;
+}
+.carousel-warp > .imgList > li {
+  float: left;
+}
+.carousel-warp > .imgList > li > a {
+  display: block;
+}
+.carousel-warp > .imgList > li > a > img {
+  display: block;
+  width: 100%;
+}
+.carousel-warp > .points-wrap {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+.carousel-warp > .points-wrap > span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: green;
+  margin-left: 5px;
+}
+.carousel-warp > .points-wrap > span.active {
+  background: deeppink;
+}
+/*# sourceMappingURL=./carousel.css.map */
